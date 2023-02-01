@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e2f2f;
+}
+
+html, body, p, div, a, span, button {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+/* BG */
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: url(../asset/bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Text Control */
+#app {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* button */
+.but-holder .CGI {
+    margin-right: 1.5rem;
+}
+
+.but-holder .MusicStation {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.but-holder .DLStation {
+    margin-left: 1.5rem;
+}
+
+.but-holder button {
+    padding: 1rem;
+    border-radius: 0;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+
+    transform: scale(1, 1);
+    transition: .3s;
+
+    font-size: 20px;
+
+    cursor:pointer;
+}
+
+.but-holder button:hover {   
+    transform: scale(1.3, 1.3);
+}
+
+.but-holder a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.but-holder a:hover {
+    text-decoration: none;
+}
+
+/* Anime Part */
+.dIMG {
+    position: absolute;
+    bottom: 1rem;
+
+    width: 100%;
+    text-align: right;
+
+    color: whitesmoke;
+}
+
+.dIMG span {
+    padding-right: 1rem;
+}
+
+.dIMG a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.dIMG a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
